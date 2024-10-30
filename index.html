@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Halloween Landing Page</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Shojumaru&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+<style>
+    :root {
+        --color-general: #999;
+        --color-titles: #29373c;
+        --color-bg-grey: #f9faf2;
+        --color-footer: #f49f28;
+    }
+
+    body {
+        font-family: 'Nanum Pen Script', sans-serif;
+        color: var;
+    }
+
+    h1, h2 {
+        color: var;
+        font-family: 'Shojumaru', cursive;
+    }
+
+    header, footer {
+        background-color: var;
+    }
+
+    .hero {
+        background: url("img/bg-hero.png") no-repeat center center;
+        background-size: cover;
+        color: darkorange;
+        padding: 290px 0;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 5rem;
+    }
+
+    .hero .highlight {
+        color: #f49f28;
+    }
+
+    .offers h2, .faq h2, .services h2 {
+        font-size: 3rem;
+        color: var;
+    }
+
+    .offers, .faq, .services {
+        padding: 50px 0;
+    }
+
+    .faq {
+        background-color: var;
+    }
+
+    .services {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer {
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    footer a {
+        color: white;
+        text-decoration: underline;
+    }
+</style>
+
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">Halloween</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About this Offer</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container text-center">
+        <h1>50% OFF Halloween Sale</h1>
+        <p>Use coupon code <span class="highlight">HALLOWEEN</span> during checkout!</p>
+        <div class="countdown-timer">
+            <span>36 DAYS</span> : <span>19 HOURS</span> : <span>54 MIN</span> : <span>42 SEC</span>
+        </div>
+        <button class="btn btn-primary">Shop Now</button>
+    </div>
+</section>
+
+<section class="offers">
+    <div class="container text-center">
+        <h2>Our Halloween OFFER</h2>
+        <p>Get all items at a discounted price: 50% OFF!</p>
+        <div class="row">
+            <div class="col-md-4">
+                <i class="icon icon-witch-hat"></i>
+                <h3>Shop from our 10,000 items</h3>
+                <p>Aliquet eget sit amet tellus cras adipiscing enim eu turpis. At risus viverra adipiscing at in tellus.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="icon icon-pumpkin"></i>
+                <h3>Hurry up! Limited Time</h3>
+                <p>Nisi tincidunt eget nullam non nisi est sit. Scelerisque viverra mauris in aliquam sem fringilla.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="icon icon-ghost"></i>
+                <h3>Free Shipping Included</h3>
+                <p>Orci nulla pellentesque dignissim enim sit amet venenatis. Ullamcorper dignissim cras tincidunt lobortis.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="faq">
+    <div class="container">
+        <h2>F.A.Q.</h2>
+        <div class="faq-item">
+            <h4>Do you offer free shipping with the discount?</h4>
+            <p>Yes, free shipping is included on all items during this sale.</p>
+        </div>
+        <div class="faq-item">
+            <h4>Another question here?</h4>
+            <p>Answer to the question goes here.</p>
+        </div>
+    </div>
+</section>
+
+<section class="services">
+    <div class="container text-center">
+        <h2>5 Star Customer Service</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p>And I always come back! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <p><strong>John Santiago</strong> - California</p>
+            </div>
+            <div class="col-md-6">
+                <img src="img/pumpkings.PNG" alt="Testimonial">
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container text-center">
+        <p>&copy; 2024 Halloween Landing Page. <a href="#">Privacy Policy</a>.</p>
+    </div>
+</footer>
+
+</body>
+</html>
